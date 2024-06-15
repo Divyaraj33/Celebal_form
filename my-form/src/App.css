@@ -1,0 +1,54 @@
+body{
+  background-color: antiquewhite;
+}
+form {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+  margin: auto;
+}
+h1{
+  text-align: center;
+  background-color: aliceblue;
+  text-shadow: 1px 1px  #008CBA;
+  position: sticky;
+  top: 0;
+  display: flex;
+  justify-content: center;
+}
+form div {
+  margin-bottom: 10px;
+}
+
+form label {
+  font-weight: bold;
+}
+
+form input, form select {
+  width: 100%;
+  padding: 8px;
+  margin-top: 5px;
+}
+
+form button {
+  padding: 10px;
+  background-color: #008CBA;
+  color: white;
+  border: none;
+  cursor: pointer;
+  margin-top: 3px;
+}
+
+form span {
+  color:  #008CBA;
+  font-size: 12px;
+}
+
+.success {
+  text-align: center;
+}
+
+.success p {
+  font-size: 18px;
+}
+
